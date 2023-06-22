@@ -36,36 +36,68 @@ div p {
 }
 
 .pos_abs {
-    background-color: yellowgreen;
+    background-color: pink;
     position: absolute;
 }
 
 .pos_stick {
-    background-color: yellowgreen;
+    background-color: teal;
     position: sticky;
 }
 
 .pos_fix {
-    background-color: yellowgreen;
+    background-color: purple;
     position: fixed;
 }
 
 .dis_block {
-    background-color: yellowgreen;
+    background-color: blue;
     display: block;
 }
 
 .dis_inline {
-    background-color: yellowgreen;
+    background-color: red;
     display: inline;
 }
 
 .dis_inl_block {
-    background-color: yellowgreen;
+    background-color: orange;
     display: inline-block;
 }
 
 .dis_flex {
-    background-color: yellowgreen;
+    background-color: gray;
     display: flex;
+}
+
+.green {
+    color: yellowgreen;
+}
+
+.pink {
+    color: pink;
+}
+
+.teal {
+    color: teal;
+}
+
+.purple {
+    color: purple;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.gray {
+    color: gray;
 }
