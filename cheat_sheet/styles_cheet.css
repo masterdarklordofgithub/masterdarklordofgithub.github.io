@@ -1,0 +1,71 @@
+* {
+    text-align: center;
+}
+
+.frame {
+    border: 3px solid #3d6406;
+    width: 400px;
+    height: 200px;
+    margin: 2rem 2rem 2rem 0rem;
+    float: left;
+}
+
+div p {
+    text-align: center;
+    line-height: 0.1rem;
+    font-weight: bold;
+}
+
+.frame div {
+    border: 3px solid #641c06;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.target {
+    top: 20px;
+    left: 20px;
+    opacity: 0.3;
+}
+
+.pos_rel {
+    background-color: yellowgreen;
+    position: relative;
+}
+
+.pos_abs {
+    background-color: yellowgreen;
+    position: absolute;
+}
+
+.pos_stick {
+    background-color: yellowgreen;
+    position: sticky;
+}
+
+.pos_fix {
+    background-color: yellowgreen;
+    position: fixed;
+}
+
+.dis_block {
+    background-color: yellowgreen;
+    display: block;
+}
+
+.dis_inline {
+    background-color: yellowgreen;
+    display: inline;
+}
+
+.dis_inl_block {
+    background-color: yellowgreen;
+    display: inline-block;
+}
+
+.dis_flex {
+    background-color: yellowgreen;
+    display: flex;
+}
