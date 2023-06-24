@@ -1,3 +1,13 @@
+* {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
 footer {
     position: absolute;
     width: 100%;
@@ -24,19 +34,11 @@ nav li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color on hover */
 nav li a:hover {
     background-color: #111;
 }
 
-/*
-li form {
-    background-color: green;
-    display: block;
-    float: right;
-    color: green;
-}
-*/
 .search {
     float: right;
 }
