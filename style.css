@@ -48,72 +48,15 @@ nav li a:hover {
     align-self: center;
 }
 
-/* Responsive Sidebar */
-.sidebar {
-    margin: 0;
-    padding: 0;
-    width: 15 rem;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
-
-.sidebar a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-}
-
-.sidebar a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-
-.sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-
-div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-}
-
-@media screen and (max-width: 700px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-
-    .sidebar a {
-        float: left;
-    }
-
-    div.content {
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .sidebar a {
-        text-align: center;
-        float: none;
-    }
-}
-
 .banner {
     background-image: url("https://raw.githubusercontent.com/masterdarklordofgithub/masterdarklordofgithub.github.io/main/resources/images/githubpage_banner.png");
     background-position: center top;
-    background-size: contain;
+    background-size: 100% 100%;
     border-bottom: 1px solid #dddddd;
-    height: 20rem;
+    height: 25rem;
     position: relative;
     text-align: center;
-    top: 100px;
+    top: 1px;
     width: 100%;
 
 }
