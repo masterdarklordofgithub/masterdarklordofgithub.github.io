@@ -51,7 +51,7 @@ nav li a:hover {
 .banner {
     background-image: url("https://raw.githubusercontent.com/masterdarklordofgithub/masterdarklordofgithub.github.io/main/resources/images/githubpage_banner.png");
     background-position: center top;
-    background-size: 100% 100%;
+    background-size: cover;
     border-bottom: 1px solid #dddddd;
     height: 25rem;
     position: relative;
