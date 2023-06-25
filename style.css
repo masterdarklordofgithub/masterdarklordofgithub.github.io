@@ -104,3 +104,15 @@ div.content {
         float: none;
     }
 }
+
+.banner {
+    background-image: url("https://raw.githubusercontent.com/masterdarklordofgithub/masterdarklordofgithub.github.io/main/resources/images/githubpage_banner.png");
+    background-position: center top;
+    background-size: cover;
+    border-bottom: 1px solid #dddddd;
+    height: 20rem;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    width: 100%;
+}
