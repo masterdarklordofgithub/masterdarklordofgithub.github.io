@@ -19,90 +19,99 @@
     <header>
         <h1>Basic HTML & CSS Cheat sheet project</h1>
     </header>
-
+    <!-- Navigation -->
     <nav>
-        <ul>
-            <li><a href="https://masterdarklordofgithub.github.io">Home</a></li>
-            <li><a href="https://masterdarklordofgithub.github.io/projects.html">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-            <li class="search">
-                <form>
-                    <input type="search" name="q" placeholder="Search query" />
-                    <input type="submit" value="Go!" />
-                </form>
-            </li>
-        </ul>
+        <div class="navigation">
+            <ul>
+                <a class="nav-link" href="https://masterdarklordofgithub.github.io">Home</a>
+                <a class="nav-link" href="https://masterdarklordofgithub.github.io/projects.html">Projects</a>
+                <a class="nav-link" href="">FAQ</a>
+                <a class="nav-link" href="">Other</a>
+                <a class="nav-link" href="">Contact</a>
+            </ul>
+        </div>
     </nav>
 
     <main>
+        <!-- banner -->
+        <div class="banner">
+            <div class="banner-text">
+                <a href="#" class="btn">About me</a>
+            </div>
+        </div>
+
         <h2>Position And Display top & right 20px :</h2>
-        <div class="frame">
-            <p class="green">position relative</p>
-            <div></div>
-            <div class="pos_rel target"></div>
-            <div></div>
-        </div>
+        <div id="parent_div">
+            <div class="frame">
+                <p class="green">position relative</p>
+                <div></div>
+                <div class="pos_rel target"></div>
+                <div></div>
+            </div>
 
 
-        <div class="frame">
-            <p class="pink">position absolute</p>
-            <div></div>
-            <div class="pos_abs target"></div>
-            <div></div>
-        </div>
+            <div class="frame">
+                <p class="pink">position absolute</p>
+                <div></div>
+                <div class="pos_abs target"></div>
+                <div></div>
+            </div>
 
 
-        <div class="frame">
-            <p class="teal">position sticky</p>
-            <div></div>
-            <div class="pos_stick target"></div>
-            <div></div>
-        </div>
+            <div class="frame">
+                <p class="teal">position sticky</p>
+                <div></div>
+                <div class="pos_stick target"></div>
+                <div></div>
+            </div>
 
 
-        <div class="frame">
-            <p class="purple">position fixed</p>
-            <div></div>
-            <div class="pos_fix target"></div>
-            <div></div>
-        </div>
+            <div class="frame">
+                <p class="purple">position fixed</p>
+                <div></div>
+                <div class="pos_fix target"></div>
+                <div></div>
+            </div>
 
 
-        <div class="frame">
-            <p class="blue">display block</p>
-            <div></div>
-            <div class="dis_block target"></div>
-            <div></div>
-        </div>
+            <div class="frame">
+                <p class="blue">display block</p>
+                <div></div>
+                <div class="dis_block target"></div>
+                <div></div>
+            </div>
 
 
-        <div class="frame">
-            <p class="red">display inline</p>
-            <div></div>
-            <div class="dis_inline target"></div>
-            <div></div>
-        </div>
+            <div class="frame">
+                <p class="red">display inline</p>
+                <div></div>
+                <div class="dis_inline target"></div>
+                <div></div>
+            </div>
 
 
-        <div class="frame">
-            <p class="orange">display inline block</p>
-            <div></div>
-            <div class="dis_inl_block target"></div>
-            <div></div>
-        </div>
+            <div class="frame">
+                <p class="orange">display inline block</p>
+                <div></div>
+                <div class="dis_inl_block target"></div>
+                <div></div>
+            </div>
 
 
-        <div class="frame">
-            <p class="gray">display flex</p>
-            <div></div>
-            <div class="dis_flex target"></div>
-            <div></div>
+            <div class="frame">
+                <p class="gray">display flex</p>
+                <div></div>
+                <div class="dis_flex target"></div>
+                <div></div>
+            </div>
         </div>
 
     </main>
-    <footer>
-        <p>©Copyright 2050 by nobody. All rights reversed.</p>
-    </footer>
+    <div id="footer">
+        <footer>
+            <p>©Copyright 2050 by nobody. All rights reversed.</p>
+        </footer>
+    </div>
 </body>
 
 </html>
