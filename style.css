@@ -1,71 +1,8 @@
-/* * {
-    text-align: center;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Ysabeau SC', sans-serif;
-}
-
-footer {
-    position: relative;
-    width: 100%;
-    bottom: 0px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-nav li {
-    float: left;
-}
-
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-main {
-    padding-bottom: 5rem;
-}
-*/
-/* Change the link color on hover */
-/* 
-nav li a:hover {
-    background-color: #111;
-}
-
-.search {
-    float: right;
-    align-self: center;
-}
-*/
 #footer {
     position: absolute;
     width: 100%;
     text-align: center;
 }
-
-/*
-footer {
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    top: 100%;
-    width: 100%;
-    text-align: center;
-}
-*/
 
 .navigation {
     box-sizing: border-box;
@@ -108,8 +45,58 @@ a.logo {
     border-bottom: 1px solid #dddddd;
     height: 30rem;
     position: relative;
-    text-align: center;
-    top: 1px;
     width: 100%;
+    justify-content: center;
 
+    display: flex;
+    text-transform: uppercase;
+
+}
+
+.banner h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 90px;
+    color: white;
+    position: relative;
+    top: 5rem;
+}
+
+.banner p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    font-weight: 200;
+    background-color: white;
+    padding: 0rem 1rem 0rem 1rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+
+}
+
+.btn {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 14px;
+    background-color: #1975f1;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    top: 8rem;
+}
+
+.banner-text {}
+
+.bnt:hover {
+    background-color: #fff;
+    color: #2176FF;
+    transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+.btn:active {
+    font-size: 18px;
+    transition: font-size .1s ease-in-out;
 }
