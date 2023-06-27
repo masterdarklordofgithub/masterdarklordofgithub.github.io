@@ -53,18 +53,19 @@ a.logo {
 }
 
 .banner h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 90px;
+    font-family: 'Ruda', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+
     color: white;
     position: relative;
-    top: 5rem;
+    top: 15%;
 }
 
 .banner p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Ruda', sans-serif;
     font-size: 45px;
-    font-weight: 200;
+    font-weight: 500;
     background-color: white;
     padding: 0rem 1rem 0rem 1rem;
     font-weight: bold;
@@ -83,8 +84,9 @@ a.logo {
     background-color: #1975f1;
     border-radius: 5px;
     text-decoration: none;
-    position: relative;
-    top: 8rem;
+    position: absolute;
+    top: 80%;
+    right: 50%;
 }
 
 .bnt:hover {
