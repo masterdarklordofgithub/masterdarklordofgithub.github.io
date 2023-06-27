@@ -47,7 +47,6 @@ a.logo {
     position: relative;
     width: 100%;
     justify-content: center;
-
     display: flex;
     text-transform: uppercase;
 
@@ -87,8 +86,6 @@ a.logo {
     position: relative;
     top: 8rem;
 }
-
-.banner-text {}
 
 .bnt:hover {
     background-color: #fff;
