@@ -11,7 +11,7 @@
     float: left;
 }
 
-div p {
+.frame p {
     text-align: center;
     line-height: 0.1rem;
     font-weight: bold;
