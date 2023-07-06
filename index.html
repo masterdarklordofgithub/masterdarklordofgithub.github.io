@@ -7,8 +7,13 @@
 
 
   <title>Masterdarklordoftheworld's github pages</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="breadcrumb.js"></script>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="breadcrumb.css" />
+  <link rel="stylesheet" href="header.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900"
     rel="stylesheet">
@@ -19,64 +24,70 @@
   <!-- Main header used across all the pages -->
   <header>
     <h1>Masterdarklordofgithub</h1>
+
+
+    <!-- Navigation -->
+    <nav>
+      <div id="header" class="fixed-header">
+        <ul>
+          <a class="nav-link logo" href="https://masterdarklordofgithub.github.io">Home</a>
+          <a class="nav-link" href="https://masterdarklordofgithub.github.io/projects.html">Projects</a>
+          <a class="nav-link" href="">FAQ</a>
+          <a class="nav-link" href="">Other</a>
+          <a class="nav-link" href="">Contact</a>
+        </ul>
+      </div>
+    </nav>
   </header>
 
-  <!-- Navigation -->
-  <nav>
-    <div class="navigation">
-      <ul>
-        <a class="nav-link logo" href="https://masterdarklordofgithub.github.io">Home</a>
-        <a class="nav-link" href="https://masterdarklordofgithub.github.io/projects.html">Projects</a>
-        <a class="nav-link" href="">FAQ</a>
-        <a class="nav-link" href="">Other</a>
-        <a class="nav-link" href="">Contact</a>
-      </ul>
-    </div>
-  </nav>
 
-  <!-- main content -->
-  <main>
-    <!-- banner -->
-    <div class="banner">
-      <div class="banner-text">
-        <h1>Adam Boström</h1>
-        <p>Frontend Development</p>
-        <a href="#" class="btn">About me</a>
+  <ul class="breadcrumb">
+    <li class="location"><a href="#">Home</a></li>
+  </ul>
+  <div id="content">
+    <main>
+      <!-- Hero Section -->
+      <!-- banner -->
+      <div class="banner">
+        <div class="banner-text">
+          <h1>Adam Boström</h1>
+          <p>Frontend Development</p>
+          <a href="#" class="btn">About me</a>
+        </div>
       </div>
-    </div>
 
-    <!-- article -->
-    <article>
-      <h2>Article heading</h2>
-      <p>
-        Welcome to my website, displayed on github pages for testing purposes!
-      </p>
+      <!-- article -->
+      <article>
+        <h2>Article heading</h2>
+        <p>
+          Welcome to my website, displayed on github pages for testing purposes!
+        </p>
 
-      <h3>Subsection 1</h3>
+        <h3>Subsection 1</h3>
 
-      <p>
-        Some text saying nothing just writing random stuff letting my fingers press
-        buttons and forming few words just to have this paragraph as a temporary filler.
-      </p>
+        <p>
+          Some text saying nothing just writing random stuff letting my fingers press
+          buttons and forming few words just to have this paragraph as a temporary filler.
+        </p>
 
-      <h3>Subsection 2</h3>
+        <h3>Subsection 2</h3>
 
-      <p>
-        Some text saying nothing just writing random stuff letting my fingers press
-        buttons and forming few words just to have this paragraph as a temporary filler.
-      </p>
-    </article>
+        <p>
+          Some text saying nothing just writing random stuff letting my fingers press
+          buttons and forming few words just to have this paragraph as a temporary filler.
+        </p>
+      </article>
 
-    <aside>
-      <h2>Related</h2>
+      <aside>
+        <h2>Related</h2>
 
-      <ol>
-        <li><a href="#">It never stops raining</a></li>
-        <li><a href="#">Oh well…</a></li>
-      </ol>
-    </aside>
-  </main>
-
+        <ol>
+          <li><a href="#">It never stops raining</a></li>
+          <li><a href="#">Oh well…</a></li>
+        </ol>
+      </aside>
+    </main>
+  </div>
   <footer>
     <p>©Copyright 2050 by nobody. All rights reversed.</p>
   </footer>

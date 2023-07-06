@@ -7,8 +7,12 @@
 
 
     <title>Masterdarklordoftheworld's github pages</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="breadcrumb.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="breadcrumb.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900"
         rel="stylesheet">
@@ -19,61 +23,70 @@
     <!-- Main header used across all the pages -->
     <header>
         <h1>Masterdarklordofgithub</h1>
-    </header>
-    <!-- Navigation -->
-    <nav>
-        <div class="navigation">
-            <ul>
-                <a class="nav-link" href="https://masterdarklordofgithub.github.io">Home</a>
-                <a class="nav-link logo" href="https://masterdarklordofgithub.github.io/projects.html">Projects</a>
-                <a class="nav-link" href="">FAQ</a>
-                <a class="nav-link" href="">Other</a>
-                <a class="nav-link" href="">Contact</a>
-            </ul>
-        </div>
-    </nav>
 
-    <main>
-        <!-- banner -->
-        <div class="banner">
-            <div class="banner-text">
-                <h1>Adam Boström</h1>
-                <p>Frontend Development</p>
-                <a href="#" class="btn">About me</a>
+        <!-- Navigation -->
+        <nav>
+            <div id="header" class="fixed-header">
+                <ul>
+                    <a class="nav-link" href="https://masterdarklordofgithub.github.io">Home</a>
+                    <a class="nav-link logo" href="https://masterdarklordofgithub.github.io/projects.html">Projects</a>
+                    <a class="nav-link" href="">FAQ</a>
+                    <a class="nav-link" href="">Other</a>
+                    <a class="nav-link" href="">Contact</a>
+                </ul>
             </div>
-        </div>
+        </nav>
+    </header>
 
-        <h2>Current projects:</h2>
-        <ul>
-            <li><a href="https://masterdarklordofgithub.github.io/cheat_sheet/sheet.html">Position and Display Cheat
-                    Sheet</a></li>
-            <li><a href="#">Project2</a></li>
-            <li><a href="#">Project3</a></li>
-        </ul>
+    <ul class="breadcrumb">
+        <li class="location"><a href="https://masterdarklordofgithub.github.io">Home</a></li>
+        <li class="location"><a href="#">Projects</a></li>
+    </ul>
 
-        <!-- article -->
-        <article>
-            <h2>Article heading</h2>
-            <p>
-                Welcome to my website, displayed on github pages for testing purposes!
-            </p>
+    <div id="content">
+        <main>
+            <!-- Hero Section -->
+            <!-- banner -->
+            <div class="banner">
+                <div class="banner-text">
+                    <h1>Adam Boström</h1>
+                    <p>Frontend Development</p>
+                    <a href="#" class="btn">About me</a>
+                </div>
+            </div>
 
-            <h3>Subsection 1</h3>
+            <h2>Current projects:</h2>
+            <ul>
+                <li><a href="https://masterdarklordofgithub.github.io/cheat_sheet/sheet.html">Position and Display Cheat
+                        Sheet</a></li>
+                <li><a href="https://masterdarklordofgithub.github.io/basic_design/basic_design.html">Basic CSS Design
+                        Samples</a></li>
+                <li><a href="#">Project3</a></li>
+            </ul>
 
-            <p>
-                Some text saying nothing just writing random stuff letting my fingers press
-                buttons and forming few words just to have this paragraph as a temporary filler.
-            </p>
+            <!-- article -->
+            <article>
+                <h2>Article heading</h2>
+                <p>
+                    Welcome to my website, displayed on github pages for testing purposes!
+                </p>
 
-            <h3>Subsection 2</h3>
+                <h3>Subsection 1</h3>
 
-            <p>
-                Some text saying nothing just writing random stuff letting my fingers press
-                buttons and forming few words just to have this paragraph as a temporary filler.
-            </p>
-        </article>
-    </main>
+                <p>
+                    Some text saying nothing just writing random stuff letting my fingers press
+                    buttons and forming few words just to have this paragraph as a temporary filler.
+                </p>
 
+                <h3>Subsection 2</h3>
+
+                <p>
+                    Some text saying nothing just writing random stuff letting my fingers press
+                    buttons and forming few words just to have this paragraph as a temporary filler.
+                </p>
+            </article>
+        </main>
+    </div>
     <footer>
         <p>©Copyright 2050 by nobody. All rights reversed.</p>
     </footer>

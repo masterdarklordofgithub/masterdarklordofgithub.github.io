@@ -7,9 +7,13 @@
 
 
     <title>Masterdarklordoftheworld's github pages</title>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../breadcrumb.js"></script>
     <link rel="stylesheet" href="styles_cheet.css" />
     <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../header.css" />
+    <link rel="stylesheet" href="../breadcrumb.css" />
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" />
 
     <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@500&display=swap" rel="stylesheet">
@@ -23,97 +27,106 @@
 
     <header>
         <h1>Basic HTML & CSS Cheat sheet project</h1>
+
+        <!-- Navigation -->
+        <nav>
+            <div id="header" class="fixed-header">
+                <ul>
+                    <a class="nav-link" href="https://masterdarklordofgithub.github.io">Home</a>
+                    <a class="nav-link logo" href="https://masterdarklordofgithub.github.io/projects.html">Projects</a>
+                    <a class="nav-link" href="">FAQ</a>
+                    <a class="nav-link" href="">Other</a>
+                    <a class="nav-link" href="">Contact</a>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <!-- Navigation -->
-    <nav>
-        <div class="navigation">
-            <ul>
-                <a class="nav-link" href="https://masterdarklordofgithub.github.io">Home</a>
-                <a class="nav-link logo" href="https://masterdarklordofgithub.github.io/projects.html">Projects</a>
-                <a class="nav-link" href="">FAQ</a>
-                <a class="nav-link" href="">Other</a>
-                <a class="nav-link" href="">Contact</a>
-            </ul>
-        </div>
-    </nav>
 
-    <main>
-        <!-- banner -->
-        <div class="banner">
-            <div class="banner-text">
-                <h1>Adam Boström</h1>
-                <p>Frontend Development</p>
-                <a href="#" class="btn">About me</a>
-            </div>
-        </div>
-
-        <h2>Position And Display top & right 20px :</h2>
-        <div id="parent_div">
-            <div class="frame">
-                <p class="green">position relative</p>
-                <div></div>
-                <div class="pos_rel target"></div>
-                <div></div>
+    <ul class="breadcrumb">
+        <li class="location"><a href="https://masterdarklordofgithub.github.io">Home</a></li>
+        <li class="location"><a href="https://masterdarklordofgithub.github.io/projects.html">Projects</a></li>
+        <li class="attribute"><a href="#">Sheet</a></li>
+    </ul>
+    <div id="content">
+        <main>
+            <!-- Hero Section -->
+            <!-- banner -->
+            <div class="banner">
+                <div class="banner-text">
+                    <h1>Adam Boström</h1>
+                    <p>Frontend Development</p>
+                    <a href="#" class="btn">About me</a>
+                </div>
             </div>
 
+            <h2>Position And Display top & right 20px :</h2>
+            <div id="parent_div">
+                <div class="frame">
+                    <p class="green">position relative</p>
+                    <div></div>
+                    <div class="pos_rel target"></div>
+                    <div></div>
+                </div>
 
-            <div class="frame">
-                <p class="pink">position absolute</p>
-                <div></div>
-                <div class="pos_abs target"></div>
-                <div></div>
+
+                <div class="frame">
+                    <p class="pink">position absolute</p>
+                    <div></div>
+                    <div class="pos_abs target"></div>
+                    <div></div>
+                </div>
+
+
+                <div class="frame">
+                    <p class="teal">position sticky</p>
+                    <div></div>
+                    <div class="pos_stick target"></div>
+                    <div></div>
+                </div>
+
+
+                <div class="frame">
+                    <p class="purple">position fixed</p>
+                    <div></div>
+                    <div class="pos_fix target"></div>
+                    <div></div>
+                </div>
+
+
+                <div class="frame">
+                    <p class="blue">display block</p>
+                    <div></div>
+                    <div class="dis_block target"></div>
+                    <div></div>
+                </div>
+
+
+                <div class="frame">
+                    <p class="red">display inline</p>
+                    <div></div>
+                    <div class="dis_inline target"></div>
+                    <div></div>
+                </div>
+
+
+                <div class="frame">
+                    <p class="orange">display inline block</p>
+                    <div></div>
+                    <div class="dis_inl_block target"></div>
+                    <div></div>
+                </div>
+
+
+                <div class="frame">
+                    <p class="gray">display flex</p>
+                    <div></div>
+                    <div class="dis_flex target"></div>
+                    <div></div>
+                </div>
             </div>
 
-
-            <div class="frame">
-                <p class="teal">position sticky</p>
-                <div></div>
-                <div class="pos_stick target"></div>
-                <div></div>
-            </div>
-
-
-            <div class="frame">
-                <p class="purple">position fixed</p>
-                <div></div>
-                <div class="pos_fix target"></div>
-                <div></div>
-            </div>
-
-
-            <div class="frame">
-                <p class="blue">display block</p>
-                <div></div>
-                <div class="dis_block target"></div>
-                <div></div>
-            </div>
-
-
-            <div class="frame">
-                <p class="red">display inline</p>
-                <div></div>
-                <div class="dis_inline target"></div>
-                <div></div>
-            </div>
-
-
-            <div class="frame">
-                <p class="orange">display inline block</p>
-                <div></div>
-                <div class="dis_inl_block target"></div>
-                <div></div>
-            </div>
-
-
-            <div class="frame">
-                <p class="gray">display flex</p>
-                <div></div>
-                <div class="dis_flex target"></div>
-                <div></div>
-            </div>
-        </div>
-
-    </main>
+        </main>
+    </div>
     <div id="footer">
         <footer>
             <p>©Copyright 2050 by nobody. All rights reversed.</p>

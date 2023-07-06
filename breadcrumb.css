@@ -1,0 +1,23 @@
+.breadcrumb>li {
+    clear: both;
+    display: inline;
+    position: relative;
+    z-index: 990;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.breadcrumb li.location+li.location::before {
+    content: "> ";
+}
+
+.breadcrumb li.attribute a {
+    color: gray;
+}
+
+.breadcrumb li.attribute::after {
+    content: "x";
+    color: red;
+    font-size: 10px;
+    vertical-align: super;
+}

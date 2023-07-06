@@ -4,40 +4,6 @@
     text-align: center;
 }
 
-.navigation {
-    box-sizing: border-box;
-    background-color: #ffffff;
-    border-bottom: 1px solid #dddddd;
-    left: 0px;
-    overflow-y: auto;
-    padding: 30px;
-    position: fixed;
-    text-align: center;
-    top: 0px;
-    width: 100%;
-    z-index: 999;
-}
-
-.navigation a {
-    color: #050211;
-    display: inline-block;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    padding: 10px 40px;
-    text-transform: uppercase;
-}
-
-a.logo {
-    color: #050211;
-    font-family: 'Amatic SC', sans-serif;
-    font-size: 34px;
-    padding: 0px 60px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
 .banner p {
     font-family: 'Ruda', sans-serif;
     font-size: 45px;
@@ -61,7 +27,6 @@ a.logo {
     justify-content: center;
     display: flex;
     text-transform: uppercase;
-
 }
 
 .banner h1 {
