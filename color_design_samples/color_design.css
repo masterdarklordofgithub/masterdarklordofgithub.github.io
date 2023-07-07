@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    line-height: 0.85;
+    margin-bottom: 15px;
+    transition: font-size 0.25s ease;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: calc(66px / 1.3);
+    margin-top: 10px;
+    line-height: 1.25;
+
+}
+
+.container p {
+    line-height: 23px;
+    margin: 0 0 15px;
+    font-family: 'Barlow', Georgia, serif;
+    font-size: 16px;
+    padding: 2% 10% 2% 10%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-family: 'Barlow', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    list-style: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    border-radius: 5%;
+}
+
+.item-image {
+    border-radius: 50%;
+}

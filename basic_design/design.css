@@ -35,6 +35,11 @@ body {
     color: #fff;
 }
 
+.navy-blue {
+    background-color: #0D1C32;
+    color: #fff;
+}
+
 .color-panel {
     display: inline-block;
     width: 32%;
