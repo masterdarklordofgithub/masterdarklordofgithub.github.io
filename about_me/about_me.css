@@ -218,6 +218,7 @@ textarea {
     background-color: #d1d1d1;
     color: #FFFFFF;
     font-size: 16px;
+    border: 1px solid #FFFFFF;
 }
 
 input {
@@ -237,6 +238,13 @@ input::placeholder {
 
 textarea::placeholder {
     color: #d1d1d1;
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+    border: 1px solid #42A5F5;
 }
 
 /* 6. Page Styles

@@ -71,6 +71,17 @@
     display: flex;
 }
 
+.dis_flex_flex_end {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.dis_flex_space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
 .green {
     color: yellowgreen;
 }
