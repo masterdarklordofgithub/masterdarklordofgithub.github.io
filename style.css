@@ -4,29 +4,22 @@
     text-align: center;
 }
 
-.banner p {
-    font-family: 'Ruda', sans-serif;
-    font-size: 45px;
-    font-weight: 500;
-    background-color: white;
-    padding: 0rem 1rem 0rem 1rem;
-    font-weight: bold;
-    position: relative;
-    display: inline-block;
-
-}
-
 .banner {
-    background-image: url("https://raw.githubusercontent.com/masterdarklordofgithub/masterdarklordofgithub.github.io/main/resources/images/githubpage_banner.png");
-    background-position: center top;
-    background-size: cover;
-    border-bottom: 1px solid #dddddd;
-    height: 30rem;
-    position: relative;
-    width: 100%;
-    justify-content: center;
-    display: flex;
+
     text-transform: uppercase;
+
+    border-bottom: 1px solid #dddddd;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("https://raw.githubusercontent.com/masterdarklordofgithub/masterdarklordofgithub.github.io/main/resources/images/githubpage_banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
 }
 
 .banner h1 {
@@ -36,24 +29,40 @@
 
     color: white;
     position: relative;
-    top: 15%;
+    margin: 3rem 0 0 0;
+
 }
 
+.banner p {
+    font-family: 'Ruda', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    background-color: white;
+    padding: 0rem 1rem 0rem 1rem;
+    margin: 0 0 0 0;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
 
+}
 
 .btn {
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 14px;
-    background-color: #1975f1;
-    border-radius: 5px;
+    padding: 1rem;
+    background-color: #1776f1;
+    border-radius: 0.5rem;
     text-decoration: none;
-    position: absolute;
-    top: 80%;
-    right: 50%;
+
+
+    width: max-content;
+    margin: 5rem 0 0 7rem;
+    font-weight: bold;
+    position: relative;
+    display: block;
 }
 
 .bnt:hover {
