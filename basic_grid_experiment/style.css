@@ -97,10 +97,10 @@ main {
     margin-top: 44px;
     justify-items: center;
     justify-content: center;
-    /* align-items: start; */
-    /* align-items: end; */
-    /* align-items: center; */
     align-items: stretch;
+    align-content: center;
+    grid-auto-rows: 500px;
+    grid-auto-flow: column;
 }
 
 h2 {
@@ -163,9 +163,8 @@ img {
 
 .container {
     min-width: 500px;
-    margin-left: 2%;
+    margin: auto;
 }
-
 
 
 .footer2 {
