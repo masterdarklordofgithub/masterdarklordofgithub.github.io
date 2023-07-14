@@ -36,3 +36,16 @@
     font-size: 40px;
     padding: 0px 60px;
 }
+
+@media only screen and (max-height: 480px),
+(max-width: 320px) {
+    #header a {
+        font-size: 16px;
+        padding: 0px 15px;
+    }
+
+    #header .logo {
+        font-size: 28pxpx;
+        padding: 0px 20px;
+    }
+}

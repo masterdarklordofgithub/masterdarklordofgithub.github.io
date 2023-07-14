@@ -1,9 +1,3 @@
-#footer {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-}
-
 .banner {
 
     text-transform: uppercase;
@@ -74,4 +68,10 @@
 .btn:active {
     font-size: 18px;
     transition: font-size .1s ease-in-out;
+}
+
+#footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
 }
