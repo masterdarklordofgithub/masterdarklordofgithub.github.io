@@ -1,4 +1,92 @@
 /* Universal Styles */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
 html {
   font-family: "Roboto", sans-serif;
@@ -7,8 +95,12 @@ html {
 
 .main-content {
   position: relative;
-  top: 5.3125rem;
+  top: 5.4rem;
   /* To offset for fixed header. */
+}
+
+body {
+  margin: 0 0;
 }
 
 .center {
@@ -23,10 +115,14 @@ html {
 
 .image-container {
   overflow: hidden;
+
 }
 
 .image-container img {
+  max-width: 100%;
+  height: auto;
   display: block;
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -36,13 +132,20 @@ html {
 }
 
 /* Header */
+.banner {
+  background-image: url("https://raw.githubusercontent.com/masterdarklordofgithub/masterdarklordofgithub.github.io/main/fotomatic/resources/images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 header {
   position: fixed;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
-  z-index: 5;
+  top: 0;
+  z-index: 99;
 }
 
 header .content {
@@ -129,6 +232,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin-left: 15%;
+  align-self: center;
 }
 
 #sign-up-cta .content {
@@ -301,6 +406,7 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
 }
 
 @media only screen and (max-width: 760px) {
@@ -339,12 +445,14 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
+
+
   font-family: "Palatino", serif;
   font-size: 1.875rem;
   line-height: 1.1;
@@ -352,21 +460,21 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
@@ -390,7 +498,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   footer .content {
     font-size: .625rem;
   }
