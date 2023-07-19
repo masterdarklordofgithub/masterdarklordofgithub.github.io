@@ -1,0 +1,27 @@
+.banner h1 {
+    font-family: 'Ruda', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+    align-self: center;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+.banner {
+
+    text-transform: uppercase;
+
+    border-bottom: 1px solid #dddddd;
+    width: 100%;
+    height: 45rem;
+    align-items: center;
+
+    background-image: url("https://raw.githubusercontent.com/masterdarklordofgithub/masterdarklordofgithub.github.io/main/resources/images/githubpage_banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+}
