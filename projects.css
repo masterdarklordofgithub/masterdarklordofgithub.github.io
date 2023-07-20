@@ -1,0 +1,16 @@
+.projects li a {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.projects li a:hover {
+    text-decoration: underline;
+}
+
+.projects ul {
+    font-size: 2rem;
+    text-align: left;
+
+}
