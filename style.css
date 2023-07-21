@@ -81,15 +81,13 @@ section {
     text-decoration: none;
     justify-content: space-around;
     font-size: 1.5rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 .navigation ul a:hover:not(:last-child) {
     color: white !important;
     text-decoration: underline;
     opacity: 1;
-    justify-content: space-around;
-    font-size: 1.5rem;
 }
 
 .navigation ul a:last-child {
@@ -99,6 +97,30 @@ section {
 a.btn:hover {
     font-size: 1.2rem;
     opacity: 1 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .navigation {
+        height: 3rem;
+    }
+
+    .navigation .logo img {
+        height: 2rem;
+    }
+
+    .navigation ul a:not(:last-child) {
+        font-size: 0.7rem;
+    }
+
+    .navigation ul a:last-child {
+        font-size: 0.5rem;
+    }
+
+    .btn {
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+        border-radius: 0.1rem;
+    }
 }
 
 /* BANNER */
@@ -122,7 +144,7 @@ a.btn:hover {
 
 .banner h1 {
     font-family: 'noto sans', sans-serif;
-    font-size: 70px;
+    font-size: 4.5rem;
     font-weight: 900;
     color: white;
     align-self: center;
@@ -132,7 +154,7 @@ a.btn:hover {
 
 .banner p {
     font-family: 'noto sans', sans-serif;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 500;
     background-color: white;
     padding: 0rem 1rem 0rem 1rem;
@@ -145,6 +167,21 @@ a.btn:hover {
 .about-me-btn {
     margin-top: 15%;
     align-self: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .banner {
+        height: 30rem;
+    }
+
+    .banner h1 {
+        font-size: 2.5rem;
+        margin-top: 20%;
+    }
+
+    .banner p {
+        font-size: 1.7rem;
+    }
 }
 
 /* MISSION */
